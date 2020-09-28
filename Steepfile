@@ -2,7 +2,6 @@ target :lib do
   signature "sig"
   check "lib"
 
-  vendor stdlib: "stdlib"
   library "set", "pathname", "json", "logger"
 end
 
